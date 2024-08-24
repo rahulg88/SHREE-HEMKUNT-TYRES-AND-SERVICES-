@@ -1,0 +1,379 @@
+.navbar-brand span {
+    color: red;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    /* Black color for links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #444;
+    /* Darker gray on hover */
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+}
+
+.login-link i {
+    margin-right: 5px;
+}
+
+
+/* hero section */
+
+.hero-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rating,
+.review-count,
+.location,
+.hours {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.rating i {
+    color: #f4c150;
+}
+
+.badge-verified {
+    color: green;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.get-directions-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* tyre card */
+.tyre-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tyre-size {
+    font-size: 1rem;
+    color: #555;
+}
+
+.rating {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.reviews {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-offer {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.card-warranty {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* Deals IN */
+
+.deals-container-main {
+
+
+    background-color: #f8f9fa;
+    padding: 10px;
+
+}
+
+.deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.deals-item {
+    flex: 1 1 calc(16.66% - 30px);
+    text-align: center;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.deals-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.deals-item img {
+    max-width: 100%;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.deals-item p {
+    margin: 0;
+    font-weight: 500;
+    color: #333333;
+}
+
+@media (max-width: 992px) {
+    .deals-item {
+        flex: 1 1 calc(33.33% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .deals-item {
+        flex: 1 1 calc(50% - 30px);
+    }
+}
+
+@media (max-width: 576px) {
+    .deals-item {
+        flex: 1 1 100%;
+    }
+}
+
+/* service card */
+.service-card {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.service-card img {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+.service-card h5 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.btn-book {
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* card-title */
+
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-price {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-warranty {
+    background-color: #e1c674;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card-offer {
+    color: #28a745;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.rating {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #28a745;
+}
+
+.reviews {
+    font-size: 14px;
+}
+
+.tyre-image {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+
+.tyre-size {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-view-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-view-more button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* for payment  */
+.card-body {
+    padding: 1rem 1.5rem;
+}
+
+hr {
+    margin: 0.5rem 0;
+}
+
+.img-fluid {
+    max-height: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ask question  */
+/* body {
+    background-color: #efe8fd;
+} */
+
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.submit-btn {
+    background-color: #7c4dff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #5e35b1;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-top: 1px solid #dee2e6;
+    align-items: center;
+}
+
+.footer-links {
+    text-decoration: none;
+
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #6c757d;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #000;
+}
+
+.no-underline a {
+    text-decoration: none;
+    color: #000;
+}
